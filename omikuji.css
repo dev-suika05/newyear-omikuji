@@ -37,6 +37,7 @@
   font-size: 18px;
   text-align: center;
   border-radius: 200px;
+  cursor: pointer;
 }
 .p-omikuji .p-result {
   width: 100%;
@@ -76,7 +77,7 @@
   font-size: 20px;
   text-align: right;
 }
-.p-omikuji .p-result__share {
+.p-omikuji .p-result__share a {
   display: block;
   width: 80%;
   padding: 15px 0;

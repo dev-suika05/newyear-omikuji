@@ -17,7 +17,8 @@ function resultNum() {
 }
 function shareLink () {
   let resultText = resultItem;
-  let urlLink = 'https://twitter.com/intent/tweet?text=あなたのおみくじの結果は'+ resultText +'！';
+  let url = 'https://newyear-omikuji.netlify.app/'
+  let urlLink = 'https://twitter.com/intent/tweet?text=あなたのおみくじの結果は'+ resultText +'！%0a%0a'+ url +'';
 
   $('.js-result-share').attr('href',urlLink);
 }
