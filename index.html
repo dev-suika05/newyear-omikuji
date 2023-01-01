@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじ</title>
+  
+  <link rel="stylesheet" href="./destyle.css">
+  <link rel="stylesheet" href="./omikuji.css">
+</head>
+<body>
+  <main class="p-omikuji">
+    <div class="p-start">
+      <div class="p-start__title">
+        <h1>
+          おみくじ
+        </h1>
+      </div>
+      <div class="p-start__btn js-start-btn">
+        おみくじを引く
+      </div>
+    </div>
+    <div class="p-result">
+      <div class="p-result__content">
+        <div class="p-result__content-top">
+          おみくじの結果は...
+        </div>
+        <div class="p-result__content-main js-result-item">
+          
+        </div>
+        <div class="p-result__content-btm">
+          です。
+        </div>
+      </div>
+      <div class="p-result__share">
+        <a class="js-result-share" href="">
+          結果をTwitterに投稿する
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+<script src="./omikuji.js"></script>
+</html>
